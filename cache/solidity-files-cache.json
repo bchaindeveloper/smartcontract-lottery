@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/dev/Desktop/projects/Web3JS/smartcontract-lottery/contracts/Raffle.sol": {
-      "lastModificationDate": 1663777665360,
-      "contentHash": "298f43bf6f6c1c22221fadbf743bf6a0",
+      "lastModificationDate": 1663804327171,
+      "contentHash": "00482b2b586dd7e219c4fa987749a8a4",
       "sourceName": "contracts/Raffle.sol",
       "solcConfig": {
         "version": "0.8.8",
@@ -37,7 +37,8 @@
       },
       "imports": [
         "@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol",
-        "@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol"
+        "@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol",
+        "@chainlink/contracts/src/v0.8/KeeperCompatible.sol"
       ],
       "versionPragmas": [
         "^0.8.7"
@@ -128,6 +129,135 @@
       ],
       "artifacts": [
         "VRFCoordinatorV2Interface"
+      ]
+    },
+    "/home/dev/Desktop/projects/Web3JS/smartcontract-lottery/node_modules/@chainlink/contracts/src/v0.8/KeeperCompatible.sol": {
+      "lastModificationDate": 1663708610942,
+      "contentHash": "c153645393332a62a1e73cb0d5a6162c",
+      "sourceName": "@chainlink/contracts/src/v0.8/KeeperCompatible.sol",
+      "solcConfig": {
+        "version": "0.8.8",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./KeeperBase.sol",
+        "./interfaces/KeeperCompatibleInterface.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "KeeperCompatible"
+      ]
+    },
+    "/home/dev/Desktop/projects/Web3JS/smartcontract-lottery/node_modules/@chainlink/contracts/src/v0.8/KeeperBase.sol": {
+      "lastModificationDate": 1663708610942,
+      "contentHash": "216a5d4c261e07cc7b31f828950e35ad",
+      "sourceName": "@chainlink/contracts/src/v0.8/KeeperBase.sol",
+      "solcConfig": {
+        "version": "0.8.8",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "KeeperBase"
+      ]
+    },
+    "/home/dev/Desktop/projects/Web3JS/smartcontract-lottery/node_modules/@chainlink/contracts/src/v0.8/interfaces/KeeperCompatibleInterface.sol": {
+      "lastModificationDate": 1663708611102,
+      "contentHash": "bdbf3e274e50272d9c830fa414fcbec9",
+      "sourceName": "@chainlink/contracts/src/v0.8/interfaces/KeeperCompatibleInterface.sol",
+      "solcConfig": {
+        "version": "0.8.8",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "KeeperCompatibleInterface"
       ]
     }
   }
