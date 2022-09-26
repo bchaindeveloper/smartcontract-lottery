@@ -1,6 +1,6 @@
 const { ethers, network } = require("hardhat")
 const fs = require("fs")
-const frontEndContractsFile = "../nextjs-lottery/constants/contactAddress.json"
+const frontEndContractsFile = "../nextjs-lottery/constants/contractAddress.json"
 const frontEndAbiFile = "../nextjs-lottery/constants/abi.json"
 
 module.exports = async () => {
