@@ -23,5 +23,8 @@
   },
   "dependencies": {
     "test": "^3.2.1"
-  }
+  },
+  "description": "Smart Contract Lottery",
+  "repository": "https://github.com/bchaindeveloper/smartcontract-lottery.git",
+  "author": "bchaindeveloper <bcdev3@protonmail.com>"
 }
